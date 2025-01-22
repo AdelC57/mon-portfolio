@@ -103,13 +103,13 @@
     <footer class="footer">
       <div class="social-links">
         <a href="https://linkedin.com/" target="_blank" class="social-link">
-          <img src="../assets/icons/linkedin.png" alt="LinkedIn">
+          <img src="../assets/img/linkedin.png" alt="LinkedIn">
         </a>
         <a href="https://github.com/" target="_blank" class="social-link">
-          <img src="../assets/icons/github.png" alt="GitHub">
+          <img src="../assets/img/github.png" alt="GitHub">
         </a>
         <a href="mailto:votre@email.com" class="social-link">
-          <img src="../assets/icons/email.png" alt="Email">
+          <img src="../assets/img/email.png" alt="Email">
         </a>
       </div>
       <div class="footer-bottom">
@@ -118,7 +118,7 @@
     </footer>
   </main>
 </template>
-
+ 
 <script>
 export default {
   data() {
@@ -133,7 +133,7 @@ export default {
         {
           id: 1,
           title: "Formation",
-          image: "../assets/img/maphoto.png",
+          image: "../src/assets/img/projet1.jpg",
           description: "Formation Développeur Web et Web Mobile avec le CEF",
           technologies: "HTML, CSS, JavaScript, PHP, MySQL",
           link: "#",
@@ -142,7 +142,7 @@ export default {
         {
           id: 2,
           title: "Formation",
-          image: "../assets/img/maphoto.png",
+          image: "../src/assets/img/projet2.jpg",
           description: "Formation Développeur Web et Web Mobile avec le CEF",
           technologies: "HTML, CSS, JavaScript, PHP, MySQL",
           link: "#",
@@ -151,7 +151,7 @@ export default {
         {
           id: 3,
           title: "Formation",
-          image: "../assets/img/maphoto.png",
+          image: "../src/assets/img/projet3.jpg",
           description: "Formation Développeur Web et Web Mobile avec le CEF",
           technologies: "HTML, CSS, JavaScript, PHP, MySQL",
           link: "#",
